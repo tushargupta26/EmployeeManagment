@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmployeeManagmentApplication implements CommandLineRunner {
+public class EmployeeManagmentApplication {
 
 	@Autowired
 	private EmployeeDao employeeDao;
@@ -16,9 +16,9 @@ public class EmployeeManagmentApplication implements CommandLineRunner {
 		SpringApplication.run(EmployeeManagmentApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception{
-		employeeDao.createTable();
-	}
+//	@Override
+//	public void run(String... args) throws Exception{
+//		employeeDao.createTable();
+//	}
 
 }

@@ -15,4 +15,8 @@ public class EmployeeDao {
         int update = this.jdbcTemplate.update(query);
         System.out.println(update);
     }
+
+    public void addNewEntry() {
+
+    }
 }

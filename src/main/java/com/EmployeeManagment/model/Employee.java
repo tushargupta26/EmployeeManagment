@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonIgnoreProperties
 @Entity
-@Table
+@Table (name = "Employee")
 public class Employee {
     @Column
     public String firstName;
