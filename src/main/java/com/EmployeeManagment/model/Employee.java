@@ -24,5 +24,5 @@ public class Employee {
     @Column
     public String empId;
     @Column
-    public String age;
+    public int age;
 }
